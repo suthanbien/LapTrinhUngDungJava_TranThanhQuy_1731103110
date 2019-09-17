@@ -22,6 +22,7 @@ public class Lap3Bai1 {
 
         if(ok==true) {
             System.out.println("Số vừa nhập là số nguyên tố.");
+            //
         }
         else
         {
