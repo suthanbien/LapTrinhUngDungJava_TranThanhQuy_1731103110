@@ -20,7 +20,7 @@ public class Lap3Bai1 {
         }
         if(snt) {
             System.out.println("Số vừa nhập là số nguyên tố.");
-        
+
         }
         else
         {
