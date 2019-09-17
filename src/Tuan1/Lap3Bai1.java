@@ -16,6 +16,7 @@ public class Lap3Bai1 {
             if(n % i == 0){
                 ok = false;
                 break;
+                //
             }
         }
 
