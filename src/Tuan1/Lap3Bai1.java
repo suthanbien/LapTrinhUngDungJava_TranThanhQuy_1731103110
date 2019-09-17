@@ -1,7 +1,6 @@
 package Tuan1;
 
 import java.util.Scanner;
-
 public class Lap3Bai1 {
     private static Scanner sc;
     public static void main(String[] args) {
