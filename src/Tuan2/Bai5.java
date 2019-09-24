@@ -22,23 +22,17 @@ public class Bai5 {
         btnGiai.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String sa,sb,sc;
-                sa=txtSoa.getText();
-                sb=txtSob.getText();
-                sc=txtSoc.getText();
-                if(sa.length()==0||sb.length()==0||sc.length()==0){
-                    JOptionPane.showMessageDialog(null,"Vui lòng điền đầy đủ số");
-                }
-                else {
-                    double a = Double.parseDouble(sa);
-                    double b = Double.parseDouble(sb);
-                    double c = Double.parseDouble(sc);
-                    String ketQua=giaiPTB2(a,b,c);
-                    //JOptionPane.showMessageDialog(null,ketQua);
-                    txtKetQua.setText(ketQua);
-                }
-
-
+               try {
+                   double a = Double.parseDouble(txtSoa.getText());
+                   double b = Double.parseDouble(txtSob.getText());
+                   double c = Double.parseDouble(txtSoc.getText());
+                   String ketQua=giaiPTB2(a,b,c);
+                   //JOptionPane.showMessageDialog(null,ketQua);
+                   txtKetQua.setText(ketQua);
+               }
+               catch (Exception ex){
+                   JOptionPane.showMessageDialog(null,"Vui Lòng Nhập Đủ Số");
+               }
             }
         });
         btnThoat.addActionListener(new ActionListener() {
@@ -50,7 +44,10 @@ public class Bai5 {
         btnXoaTrang.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+            txtKetQua.setText("");
+            txtSoa.setText("");
+            txtSob.setText("");
+            txtSoc.setText("");
             }
         });
 
@@ -92,4 +89,7 @@ public class Bai5 {
         jFrame.setVisible(true);
         jFrame.setLocationRelativeTo(null);
     }
+
+
+
 }

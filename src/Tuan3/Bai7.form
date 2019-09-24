@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Tuan3.Bai7">
+  <grid id="27dc6" binding="pnMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="609" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="649a5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="50" bottom="0" right="50"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="195b6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="26" style="1"/>
+              <foreground color="-15129345"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Thao tác trên JList – Jcheckbox"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5bf21" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="a18de" layout-manager="GridLayoutManager" row-count="7" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints border-constraint="West"/>
+            <properties/>
+            <border type="line" title="Chọn Tác Vụ">
+              <color color="-2739968"/>
+            </border>
+            <children>
+              <component id="6c140" class="javax.swing.JButton" binding="btnToDenChan">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Tô đen số chẵn"/>
+                  <text value="Tô đen số chẵn"/>
+                </properties>
+              </component>
+              <vspacer id="ffb93">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="f78f6" class="javax.swing.JButton" binding="btnToDenLe">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Tô đen số lẻ"/>
+                  <text value="Tô đen số lẻ"/>
+                </properties>
+              </component>
+              <component id="d11cc" class="javax.swing.JButton" binding="btnToDenNguyenTo">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Tô đen số nguyên tố"/>
+                  <text value="Tô đen số nguyên tố"/>
+                </properties>
+              </component>
+              <component id="90a80" class="javax.swing.JButton" binding="btnBoToDen">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Bỏ tố đen"/>
+                  <text value="Bỏ tố đen"/>
+                </properties>
+              </component>
+              <component id="c4fae" class="javax.swing.JButton" binding="btnXoaGiaTriToDen">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Xóa các giá trị đang tô đen"/>
+                  <text value="Xóa các giá trị đang tô đen"/>
+                </properties>
+              </component>
+              <component id="ad738" class="javax.swing.JButton" binding="btnTongGiaTri">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="2"/>
+                  <horizontalTextPosition value="0"/>
+                  <label value="Tổng giá trị trong list"/>
+                  <text value="Tổng giá trị trong list"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="17e81" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="line" title="Nhập thông tin">
+              <color color="-2739968"/>
+            </border>
+            <children>
+              <grid id="905ce" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="10" bottom="0" right="10"/>
+                <constraints border-constraint="North"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="2490a" class="javax.swing.JButton" binding="btnNhap">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <label value="Nhập"/>
+                      <text value="Nhập"/>
+                    </properties>
+                  </component>
+                  <hspacer id="e7e92">
+                    <constraints>
+                      <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </hspacer>
+                  <component id="f739f" class="javax.swing.JTextField" binding="txtNhap">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="38be9" class="javax.swing.JCheckBox" binding="checkNhapAm">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="Cho nhập số âm"/>
+                      <label value="Cho nhập số âm"/>
+                      <text value="Cho nhập số âm"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="e7d32" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints border-constraint="Center"/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <scrollpane id="b11a2" binding="jscp">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <component id="69e66" class="javax.swing.JList" binding="jlSo">
+                        <constraints/>
+                        <properties>
+                          <selectionForeground color="-17"/>
+                          <visible value="true"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </scrollpane>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="a1372" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="line" title=" " title-position="4">
+          <font/>
+          <title-color color="-2739968"/>
+          <color color="-2739968"/>
+        </border>
+        <children>
+          <component id="b1ee1" class="javax.swing.JButton" binding="btnDong">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <label value="Đóng chương trình"/>
+              <text value="Đóng chương trình"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
