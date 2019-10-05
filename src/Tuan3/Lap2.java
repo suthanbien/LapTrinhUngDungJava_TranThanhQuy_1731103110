@@ -148,6 +148,8 @@ public class Lap2 {
                         long b=Long.parseLong(lbHienThi.getText());
                         long kq=a+b;
                         lbHienThi.setText(""+kq);
+
+
                     }
                     else if(phepToan.equals("-")){
                         long b=Long.parseLong(lbHienThi.getText());
@@ -168,6 +170,8 @@ public class Lap2 {
                         double kq=((double)a/100);
                         lbHienThi.setText(""+kq);
                     }
+
+
                 }
             }
         });

@@ -205,6 +205,7 @@ public class Lap3 {
             buttonan.setBackground(Color.CYAN);
         }
     }
+
     public void kiemTraBtn4ke(JButton buttonan, JButton button1, JButton button2,JButton button3,JButton button4){
 
         if(button1.getText().length()==0){
